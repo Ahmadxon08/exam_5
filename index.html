@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav_bar">
+          <div class="logo">
+            <h1>Where in the world?</h1>
+          </div>
+          <div id="dark_mode">
+            <img src="./img/moon.png" alt="moon" />
+            <span>Dark Mode</span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+    
+      <section>
+        <div class="container">
+          <div class="head">
+            <div class="search_input">
+              <img
+                src="./img/search.svg"
+                alt="you can search any you want item"
+              />
+              <input
+                type="search"
+                id="searchInput"
+                name="search"
+                placeholder="Search for a country…"
+              />
+            </div>
+            <div class="selects">
+
+              <div class="drop_down">
+                <select name="" id="sorter">
+                 
+                  <option hidden>Sorter by country</option>
+                  <option value="Title">Title</option>
+                  <option value="Population">Population</option>
+                  <option value="Region">Region</option>
+                  <option value="Capital">Capital</option>
+                </select>
+              </div>
+              <div class="drop_down">
+                <select name="" id="filter">
+                 
+                  <option value="allRegion">Filter by Region</option>
+                  <option value="Africa">Africa</option>
+                  <option value="America">America</option>
+                  <option value="Asia">Asia</option>
+                  <option value="Europe">Europe</option>
+                  <option value="Oceania">Oceania</option>
+                </select>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="card_content">
+
+              <div class="card">
+             
+              
+              </div>
+         
+           
+            
+            
+        
+          </div>
+          <div id="pagination" class="pagination">
+
+            <button id="prevBtn">&#x2190</button>
+            <button id="nextBtn">&#x2192</button>
+          </div>
+        </div>
+        <button class="scroll_top" ><p>&#x2191</p></button>
+        
+      </section>
+    </main>
+
+    <script src="./js/main.js" ></script>
+  </body>
+</html>
